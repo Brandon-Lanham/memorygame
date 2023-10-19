@@ -20,7 +20,7 @@
 const gameContainer = document.getElementById("game");
 //button and functions to add 2 more cards at a time
 
-let numOfCards = 10; 
+let numOfCards = 12; 
 function addCards() {
   numOfCards += 2;
   console.log(`Number of cards: ${numOfCards}`)
